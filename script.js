@@ -742,27 +742,27 @@
             <div class="form-grid">
               <div class="form-field">
                 <label for="cf-first">First Name</label>
-                <input id="cf-first" type="text" placeholder="Jane" value="${checkoutData.firstName || ''}">
+                <input id="cf-first" type="text" placeholder="Derrick" value="${checkoutData.firstName || ''}">
                 <span class="error-msg" id="e-first"></span>
               </div>
               <div class="form-field">
                 <label for="cf-last">Last Name</label>
-                <input id="cf-last" type="text" placeholder="Smith" value="${checkoutData.lastName || ''}">
+                <input id="cf-last" type="text" placeholder="Omondi" value="${checkoutData.lastName || ''}">
                 <span class="error-msg" id="e-last"></span>
               </div>
               <div class="form-field full">
                 <label for="cf-email">Email Address</label>
-                <input id="cf-email" type="email" placeholder="jane@example.com" value="${checkoutData.email || ''}">
+                <input id="cf-email" type="email" placeholder="derrick@omondi.com" value="${checkoutData.email || ''}">
                 <span class="error-msg" id="e-email"></span>
               </div>
               <div class="form-field full">
                 <label for="cf-addr">Delivery Address</label>
-                <input id="cf-addr" type="text" placeholder="123 Green Lane" value="${checkoutData.address || ''}">
+                <input id="cf-addr" type="text" placeholder="123 Migori" value="${checkoutData.address || ''}">
                 <span class="error-msg" id="e-addr"></span>
               </div>
               <div class="form-field">
                 <label for="cf-city">City</label>
-                <input id="cf-city" type="text" placeholder="London" value="${checkoutData.city || ''}">
+                <input id="cf-city" type="text" placeholder="Nairobi" value="${checkoutData.city || ''}">
                 <span class="error-msg" id="e-city"></span>
               </div>
               <div class="form-field">
